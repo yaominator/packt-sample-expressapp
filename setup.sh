@@ -6,7 +6,7 @@ sudo service docker start
 
 sudo yum install -y git
 
-git clone https://github.com/jamescross91/packt-sample-expressapp.git
+git clone https://github.com/yaominator/packt-sample-expressapp.git
 
 sudo docker build -t packt/packt-sample-expressapp packt-sample-expressapp/
 

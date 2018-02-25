@@ -4,8 +4,8 @@ const aws = require('aws-sdk');
 const s3 = new aws.S3();
 
 const getParams = {
-    Bucket: 'packt-james-test-bucket', // your bucket name,
-    Key: 'packt-test-file.txt' // path to the object you're looking for
+    Bucket: 'com.jiqingyao.firsttest', // your bucket name,
+    Key: 'a.txt' // path to the object you're looking for
 }
 
 app.get('/', function (req, res) {
